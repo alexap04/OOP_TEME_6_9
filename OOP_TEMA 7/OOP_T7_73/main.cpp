@@ -50,7 +50,7 @@ class CarDriverMap {
 
   void showAll() {
     for (const auto& [driver, car] : drivers_) {
-      printf("Driver: %s, Car: %s %s\n", driver->getName().c_str(),
+     cout<< driver->getName().c_str(),
                   car->getMake().c_str(), car->getModel().c_str());
     }
   }
